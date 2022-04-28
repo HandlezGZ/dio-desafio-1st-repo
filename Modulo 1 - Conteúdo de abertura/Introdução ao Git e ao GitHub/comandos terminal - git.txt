@@ -1,0 +1,37 @@
+cd         -> muda diretorio
+cd ..      -> retrocede
+mkdir      -> cria um diretorio
+rmdir      -> remove diretorio
+ls/dir     -> lista
+ls -a      -> lista repositorios ocultos
+mv arquivo pasta -> move arquivo
+touch  arquivo.ext -> cria arquivo
+rmr arquivo.ext -> deleta arquivo
+
+
+git config --global user.name "username"
+git config --global user.email email
+
+criando um projeto 
+- entrar no diretorio desejado
+git init
+- adicionar algum arquivo
+git add * ou git add nomedoarquivo
+- passar para faze de staging
+git commit ((-m "msg"))
+- enviar para o github
+git push <remote> <branch>
+---> git push master/main/XX
+
+
+
+git add *  -> adiciona tudo para area de staging
+git status -> status dos arquivos em comparação ao git
+git commit -> "commita" um arquivo
+git commit -m "msg" -> commita um arquivo com uma mensagem
+git push origin master -> envia para o github
+git pull origin master -> puxa os arquivos
+git clone URL -> clona um repositorio para a pasta atual
+
+___ para conflitos de merging ___
+puxar o arquivo com o pull, editá-lo com as mudanças necessárias para resolver o conflito entre o arquivo do seu repositório local e o repositório do servidor, commitar novamente e enviar com o push
